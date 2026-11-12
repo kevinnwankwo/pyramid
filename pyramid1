@@ -1,0 +1,6 @@
+for i in range(5, 0, -1):
+    # pyramid components
+    left_spaces = " " * (5 - i)
+    left_stars = "* " * i
+
+    print(left_spaces + left_stars)
